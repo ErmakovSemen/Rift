@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.big_text{
+			color: rgb(100,100,100);
+
+	}
+.headpic {
+    float: center; /* Выравнивание по правому краю */
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+
+     /* Отступы вокруг фотографии */
+   }
+
+a {
+  text-decoration: none;
+  /*color: #123213;*/
+}
+
+th {
+   border: 1px solid grey;
+}
+
+.menu{
+
+  list-style: none;
+  margin: 10px 0 5px;
+  padding: 10px 0 5px;
+  text-align: center;
+  background: #333333;
+
+}
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #777777;
+  transition: .3s linear;
+  position: relative;
+}
+
+
+.menu li {
+	display: inline-block;
+}
+
+body {	
+		background-color: #000000;
+		background-clip: border-box;
+}
